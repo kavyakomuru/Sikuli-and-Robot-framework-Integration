@@ -1,0 +1,7 @@
+***Settings***
+Library  Resources.Resources  WITH NAME  Resources
+***Test Cases***
+1
+	Start GPII
+2
+	Close GPII

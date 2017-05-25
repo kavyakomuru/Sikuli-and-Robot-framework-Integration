@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 2.8.7 (Jython 2.5.3 on java1.8.0_111)" generated="20170411 11:32:13.608">
+<suite source="C:\rfw\robot_suite\verify_Installer.txt" name="verify Installer" id="s1">
+<test name="Start/StopGPII" id="s1-t1">
+<kw type="setup" name="Resources.Show Desktop">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20170411 11:32:15.904">[log] ( Meta )  TYPE "d"</msg>
+<status endtime="20170411 11:32:15.906" starttime="20170411 11:32:15.799" status="PASS"></status>
+</kw>
+<kw type="kw" name="Resources.Start GPII">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="INFO" timestamp="20170411 11:32:26.663">[log] DOUBLE CLICK on L(47,517)@S(0)[0,0 1920x1080]
+[log] CLICK on L(1647,1050)@S(0)[0,0 1920x1080]</msg>
+<msg level="FAIL" timestamp="20170411 11:32:26.673">FindFailed: can not find GPII_Tasktray_Icon.png in R[0,0 1920x1080]@S(0)</msg>
+<status endtime="20170411 11:32:26.679" starttime="20170411 11:32:15.934" status="FAIL"></status>
+</kw>
+<doc>Launches and exits GPII</doc>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status critical="yes" endtime="20170411 11:32:26.686" starttime="20170411 11:32:15.776" status="FAIL">FindFailed: can not find GPII_Tasktray_Icon.png in R[0,0 1920x1080]@S(0)</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status endtime="20170411 11:32:26.706" starttime="20170411 11:32:13.613" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" doc="" links="" combined="" info="">Smoke</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" name="verify Installer" id="s1">verify Installer</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

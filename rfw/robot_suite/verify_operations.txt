@@ -1,0 +1,10 @@
+***Settings***
+Library  Desktop.Desktop  WITH NAME  Desktop
+
+***Test Cases***
+Verify that 2 + 2 = 4
+	Start App
+	
+Verify that 2 + 2 = 5
+	Verify App
+	

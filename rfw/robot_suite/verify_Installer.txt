@@ -1,0 +1,30 @@
+***Settings***
+Library  Installer.Installer  WITH NAME  Installer
+Library  Resources.Resources  WITH NAME  Resources
+Library  Demo_Personas.Demo_Personas  WITH NAME  Demo_Personas
+Test Setup    Show Desktop
+***Test Cases***
+GPIIInstallation
+	[Documentation]  Tests GPII Msi Installer start,Default installation path and Finish Install
+	[Tags]  Smoke
+	GPII Install
+
+Start/StopGPII
+	[Documentation]  Launches and exits GPII
+	[Tags]  Smoke
+	Start GPII
+	Close GPII
+
+Userskeyin/keyout
+	[Documentation]  Keying in/out with users Elod and Alice
+	[Tags]  Smoke
+	OPen Browser
+	Elod Login
+	Elod logout
+	Alice Login
+	Alice Logout	
+
+RemoveInstallation
+	[Documentation]  Tests Remove Installation option - Uninstall
+	[Tags]  Functional
+	Remove Installation

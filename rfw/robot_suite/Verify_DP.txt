@@ -1,0 +1,18 @@
+***Settings***
+Library  Demo_Personas.Demo_Personas  WITH NAME  Demo_Personas
+Library  Resources.Resources  WITH NAME  Resources
+***Test Cases***
+Userskeyin/keyout
+	[Documentation]  Keying in/out with users Elod and Alice
+	[Tags]  Smoke
+	OPen Browser
+	Elod Login
+	Elod logout
+	Alice Login
+	Alice Logout
+	
+
+
+	
+
+		

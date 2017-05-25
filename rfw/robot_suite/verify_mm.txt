@@ -1,0 +1,14 @@
+***Settings***
+Library  Matchmaker.Matchmaker  WITH NAME  Matchmaker
+
+***Test Cases***
+Verify UserA Login
+	UserA Login
+	UserA Logout
+
+	
+
+
+	
+
+		
